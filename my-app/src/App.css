@@ -1,0 +1,82 @@
+* {
+  margin: 1em;
+}
+
+.top-page {
+  background-color: rgb(41, 41, 68);
+  min-height: 55vh;
+}
+
+.logo-left {
+  float: left;
+  margin-left: 3em;
+}
+.logo-left img{
+  width: 3em;
+}
+
+.menu-right {
+  float: right;
+  margin-right: 3em;
+}
+
+.menu-right img {
+  width: 2em;
+}
+
+.top-text {
+  position: absolute;
+  top: 15%;
+  color: white;
+}
+
+.top-text h1 {
+  font-size: 3em;
+  max-width: 6em;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.top-text p{
+  position: relative;
+  left: 2em;
+  max-width: 13em;
+}
+
+.top-text .button {
+  display: flex;
+  background-color: white;
+  color: rgb(41, 41, 68);
+  width: 8em;
+  height: 3em;
+  border-radius: .3em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3em;
+}
+
+.bottom-icons {
+  display: flex;
+  min-height: 38vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-icons .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 5em;
+  width: 15%;
+}
+
+.bottom-icons .icon img {
+  width: 10em;
+}
+
+.bottom-icons .icon h3 {
+  color: rgb(41, 41, 68);
+  margin: 0 0 0 1em;
+}
+
